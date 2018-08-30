@@ -1,6 +1,11 @@
 {
-	"devDependencies": {
-		"lerna": "^2.11.0",
-		"typescript": "^3.0.0-dev.20180626"
-	}
+  "dependencies": {
+    "@ryancavanaugh/pkg1": "file:packages/pkg1",
+    "@ryancavanaugh/pkg2": "file:packages/pkg2",
+    "@ryancavanaugh/pkg3": "file:packages/pkg3"
+  },
+  "devDependencies": {
+    "lerna": "^3.2.1",
+    "typescript": "^3.0.3"
+  }
 }

@@ -1,8 +1,9 @@
 {
-    "files": [],
-    "references": [
-        { "path": "pkg1" },
-        { "path": "pkg2" },
-        { "path": "pkg3" }
-    ]
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "pkg1" },
+    { "path": "pkg2" },
+    { "path": "pkg3" }
+  ]
 }
