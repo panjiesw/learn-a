@@ -1,3 +1,7 @@
+import bar from "./bar";
+
 export function fn() {
-    return "Hello world";
+    const res = bar();
+    console.log(res.name, res.message);
+    return res.message;
 }
